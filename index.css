@@ -1,66 +1,65 @@
 body {
-    background-color: #eee;
-    margin: 0px;
+    background-color: #cfcfcf;
 }
 
-.continer {
+.container {
     text-align: center;
+    background-color: #fff;
     margin: 0 auto;
-    max-width: 650px;
-    min-height: 100vh;
-    background-color: #FFF;
-
+    max-width: 750px;
+    height: 360px;
+    max-height: 100vh;
+    margin-top: 200px;
 }
 
-img {
-    display: block;
-    max-width: 100%;
+a {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: black;
+    width: 300px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-    margin: 0 auto;
+svg {
+    height: 20px;
+    width: 20px;
+    fill: rgb(204, 182, 128);
+}
 
-    padding: 5%;
-
-    border-radius: 9%;
+.phone {
+    margin: 0px 7px 0px 0px;
+    fill: rgb(204, 182, 128);
 }
 
 .title {
-    font-weight: bold;
-    font-size: 25px;
-
-    text-transform: uppercase;
-
-    letter-spacing: 3px;
+    color: rgb(204, 182, 128);
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
-    font-size: 17px;
+img {
+    border-radius: 50%;
+    float: left;
+    margin: 5px 70px 0px 80px;
+}
 
-    margin: 10px 50px;
-
-    line-height: 24px;
+.information {
+    text-align: left;
+    margin: 4px 60px ;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .location {
     font-size: 20px;
-
-    margin-top: 40px;
-    margin-bottom: 40px;
-
-    line-height: 30px;
-}
-
-.follow {
-    font-weight: bold;
-    font-size: 25px;
-
     text-transform: uppercase;
-
-    letter-spacing: 3px;
-     margin: 20px;
+    color: rgb(204, 182, 128);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800; 
 }
-
-.icons {
-    font-size: 30px;
-
-    margin: 20px;
+.line {
+    width: 200px;
+    float: left;
+    border-top: 10px solid black;
 }
